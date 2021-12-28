@@ -1,0 +1,34 @@
+{% load static %}
+<!doctype html>
+<html lang="ru" class="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="{% static 'polls/css/main.css' %}">
+    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+    <div class="brow">
+        <div class="br1">
+            <a href="{% url 'about' %}"><img src="{% static 'polls/img/np_briefcase_907576_000000.jpg' %}" alt="Лого" class="np"></a>
+            <h3>blow</h3>
+            <a href="{% url 'about' %}"><img src="{% static 'polls/img/button.png' %}" alt="Лого" class="button"></a>
+            <div id="circle"></div>
+                <div class="cr">
+                    <a href="{% url 'home' %}" class="whit">home</a>
+                    <a href="{% url 'about' %}">about</a>
+                    <a href="{% url 'about' %}">work</a>
+                    <a href="">contact</a>
+                </div>
+        </div>
+        <div class="br2">
+            <img src="{% static 'polls/img/text_1.png' %}" alt="Лого">
+        </div>
+        <img src="{% static 'polls/img/Rectangle_3.png' %}" alt="Лого">
+    </div>
+</body>
+</html>
+

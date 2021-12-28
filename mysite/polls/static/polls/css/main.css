@@ -1,0 +1,82 @@
+.th {
+  ...background-color: rgb(27 23 23);
+  background-color: rgb(51, 51, 51);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2115px;
+  height: 1000px;
+  z-index: 2;
+}
+
+
+.brow .br1 h3{
+  font-family:sans-serif;
+  font-weight:900;
+  font-size:50px;
+  position:absolute;
+  left: 240px;
+  top: 40px;
+}
+
+.brow .br1 .button{
+  position:absolute;
+  left: 965px;
+  top: 965px;
+}
+
+.brow .br2 {
+  position:absolute;
+  left: 53px;
+  top: 400px;
+}
+
+.brow .br1 .np {
+  position:absolute;
+  left: 45px;
+  top: 1150px;
+}
+
+
+.cr a{
+  text-decoration:none;
+  margin:30px;
+  color:black;
+  font-size: 25px;
+  font-family:sans-serif
+}
+
+
+.cr .whit{
+  color:white;
+}
+
+.cr {
+  position:absolute;
+  top: 85px;
+  left:1520px;
+  display:flex;
+}
+
+
+#circle {
+    position:absolute;
+    width: 100px;
+    height: 40px;
+    background: #090909;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    top: 110px;
+    left:1531px;
+}
+
+
+.features{
+  background-color:#f6ffff;
+  text-align:center
+}
+
+.htl {
+  background-color:#144875
+}
